@@ -755,7 +755,7 @@
 		margin: 0 0 2em 0;
 	}
 
-/* Table */
+/* Table */f
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -1227,10 +1227,16 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/background2.min.jpg");
+		background-image:
+			linear-gradient(
+				rgba(255, 136, 0, 0.88),
+				rgba(0, 0, 0, 0.5)
+			),
+			url("images/overlay.png"),
+			url("../images/background4-min.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-size: cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
